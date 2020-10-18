@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <h1>Taschenrechner</h1>
+    <form action="">
+        A: <input type="number" name="a" id="a" value="1">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+        B: <input type="number" name="b" id="b" value="2">
+        <input type="button" onclick="mamali()" value="="><br><hr>
+        C: <input type="number" name="c" id="c" readonly="true">
+    </form>
+    
+</body>
+</html>
